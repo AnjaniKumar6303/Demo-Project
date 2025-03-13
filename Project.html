@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Layout</title>
+    <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+
+                <li class="dropdown">
+                    <a href="#" id="aboutBtn">About ▼</a>
+                    <ul class="dropdown-menu" id="aboutDropdown">
+                        <li><a href="#">Our Team</a></li>
+
+                        <li class="nested-dropdown">
+                            <a href="#" id="companyHistoryBtn">Company History ▼</a>
+                            <ul class="nested-dropdown-menu" id="companyHistoryDropdown">
+                                <li><a href="#">Founding Story</a></li>
+                                <li><a href="#">Milestones</a></li>
+                                <li><a href="#">Leadership</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">Mission & Vision</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Website</h1>
+            <p>A visually appealing and user-friendly interface that builds trust and credibility.</p>
+            <p>Prominent buttons and links that encourage visitors to take action, such as "Book Now," "Request a Quote," or "Contact Us."</p>
+        </div>
+    </section>
+
+    <section class="clients">
+        <h2>Our Clients</h2>
+        <div class="logos">
+            <img src="https://cdn.pixabay.com/photo/2017/03/19/20/19/ball-2157465_640.png" alt="Client 1">
+            <img src="https://i.pinimg.com/736x/71/b3/e4/71b3e4159892bb319292ab3b76900930.jpg" alt="Client 2">
+            <img src="https://t3.ftcdn.net/jpg/03/65/42/00/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B.jpg" alt="Client 3">
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <img src="https://img.freepik.com/free-vector/flat-our-services-infographic-template_23-2149984858.jpg" alt="Service 1">
+                <p>Advertising</p>
+            </div>
+            <div class="card">
+                <img src="https://accowntax.wordpress.com/wp-content/uploads/2015/08/ourservices.jpg" alt="Service 2">
+                <p>Websites</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/04/21/13/27/computer-1343393_640.jpg" alt="Service 3">
+                <p>Marketing brochures</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"This is a great service!" - Customer 1</p>
+        </div>
+        <div class="testimonial">
+            <p>"I love the quality of work!" - Customer 2</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="Project.js"></script>
+</body>
+</html>
